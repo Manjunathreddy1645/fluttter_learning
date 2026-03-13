@@ -23,6 +23,7 @@ class MyRowWidget extends StatelessWidget {
         Icon(
           Icons.facebook,
           color: Colors.white,
+          size: 36,
         ),
       ],
     );
