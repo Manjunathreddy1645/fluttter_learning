@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:frist_app/row_widget.dart';
+import 'package:frist_app/column_widget.dart';
 import 'container_widget.dart';
+import 'profile_widget.dart';
 
 void main(){
   runApp(MyApp());
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.black,
 
           body: Center(
-            child: MyRowWidget(),
+            child: ProfileWidget(),
           ),
       ),
     );

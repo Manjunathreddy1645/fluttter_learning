@@ -12,7 +12,7 @@ class IndianFlag extends StatelessWidget {
                 color:Colors.blue,
                 borderRadius: BorderRadius.all(Radius.circular(18)),
                 gradient: LinearGradient(
-                  colors: [Colors.orange,Colors.white,Colors.green],
+                  colors: [Colors.red,Colors.white,Colors.yellow],
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                 )
