@@ -33,7 +33,7 @@ class ProfileWidget extends StatelessWidget {
                 children: [
                   Icon(Icons.computer,color: Colors.orange,size: 30,),
                   Text("Linked device", style: TextStyle(color: Colors.red,fontSize: 45),),
-                  SizedBox(width: 360,),
+                  SizedBox(width: 520,),
                   Icon(Icons.arrow_forward_ios,color: Colors.purple,size: 30,),
                 ],
               ),
@@ -42,7 +42,7 @@ class ProfileWidget extends StatelessWidget {
                 children: [
                   Icon(Icons.settings,color: Colors.orange,size: 30,),
                   Text("settings", style: TextStyle(color: Colors.red,fontSize: 45),),
-                  SizedBox(width: 652,),
+                  SizedBox(width: 630,),
                   Icon(Icons.arrow_forward_ios,color: Colors.purple,size: 30,),
                 ],
               ),
